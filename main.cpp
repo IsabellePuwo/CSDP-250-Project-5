@@ -50,7 +50,7 @@ int main(){
                    cout << "Ending the program...\n";
                    exit(0);
                default:
-                   cout << "Invalid input. Please enter a number between 1 and 5.\n";
+                   cout << "Invalid input. Please enter a number between 1 and 4.\n";
            }
        }
 
