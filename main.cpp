@@ -1,4 +1,4 @@
-//
+//Isabelle N Puwo 
 //  CSDP 250 Project 5
 //  Created by Isabelle Puwo on 11/25/23.
 //
@@ -11,8 +11,7 @@ using namespace std;
 int main(){
     BST tree;
     const int numNumbers = 35;
-    
-   tree.generateRandomNumbers(numNumbers);
+    tree.generateRandomNumbers(numNumbers);
     while (true) {
            cout << "Menu:\n";
            cout << "1. Display Inorder Traversal\n";
@@ -50,10 +49,9 @@ int main(){
                    cout << "Ending the program...\n";
                    exit(0);
                default:
-                   cout << "Invalid input. Please enter a number between 1 and 4.\n";
+                   cout << "Invalid input. Please enter a number between 1 and 5.\n";
            }
        }
 
        return 0;
-    
 }
