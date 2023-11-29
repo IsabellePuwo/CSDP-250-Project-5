@@ -1,7 +1,13 @@
 //Isabelle N Puwo 
 //  CSDP 250 Project 5
 //  Created by Isabelle Puwo on 11/25/23.
-//
+/*This C++ code presents the construction of a binary search tree (BST),
+ 1. Generate a set of 35 random natural numbers (less than 100) and store them in an array.
+ 2. Construct a binary search tree using a linked list to efficiently organize and search the numbers.
+ 3. Display the binary search tree using inorder depth-first search (DFS) to visualize the sorted order of the numbers.
+ 4. Prompt the user to delete a node from the tree and then display the updated tree using postorder DFS.
+ 5. Test whether the resulting tree is an AVL tree, ensuring balance and efficient search operations. 
+ The program aims to demonstrate the creation, manipulation, and evaluation of a binary search tree while providing user interaction for node deletion..*/
 
 #include <iostream>
 #include "AVLtree.hpp"
